@@ -13,8 +13,6 @@
     { "tag": "v1", "new_sqlite_classes": ["Things"] },
     { "tag": "v2", "deleted_classes": ["Things"], "new_sqlite_classes": ["Account"] }
   ],
-  // A first sync of a large account parses its whole history.
-  "limits": { "cpu_ms": 300000 },
   "observability": { "enabled": true, "head_sampling_rate": 0.1 }
   // Secrets: JWT_SECRET, CREDENTIALS_KEY (base64url AES-256 key for stored Things passwords).
 }
